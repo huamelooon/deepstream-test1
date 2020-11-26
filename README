@@ -2,7 +2,7 @@
 this is deepstream-test1
 
 # workflow
-file-source -> h264-parser -> nvh264-decoder ->nvinfer -> nvvidconv -> nvosd -> video-renderer
+filesrc（a single H.264 stream） → decode（v412） → nvstreammux → nvinfer (primary detector) → nvdsosd → renderer
 
 # Prequisites
 
@@ -23,8 +23,9 @@ To install these packages, execute the following command:
 Compilation Steps:
   $ cd apps/deepstream-test1/
   $ make
-  $ ./deepstream-test1-app <h264_elementary_stream>
+  $ ./deepstream-test1-app <h264_elementary_stream> #./deepstream-test1-app sample_720p.h264
 
+————————————————————————————————————————————————————————————————————————————————————————————————
 This document shall describe about the sample deepstream-test1 application.
 
 It is meant for simple demonstration of how to use the various DeepStream SDK
