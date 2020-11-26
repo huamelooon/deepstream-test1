@@ -11,10 +11,12 @@ to install the prequisites for Deepstream SDK, the DeepStream SDK itself and the
 apps.
 
 You must have the following development packages installed
+```
    GStreamer-1.0
    GStreamer-1.0 Base Plugins
    GStreamer-1.0 gstrtspserver
    X11 client-side library
+```
 
 To install these packages, execute the following command:
    sudo apt-get install libgstreamer-plugins-base1.0-dev libgstreamer1.0-dev \
