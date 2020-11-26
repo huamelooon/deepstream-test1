@@ -25,7 +25,8 @@ Compilation Steps:
   $ make
   $ ./deepstream-test1-app <h264_elementary_stream> #./deepstream-test1-app sample_720p.h264
 
-————————————————————————————————————————————————————————————————————————————————————————————————
+# detailed infomation
+
 This document shall describe about the sample deepstream-test1 application.
 
 It is meant for simple demonstration of how to use the various DeepStream SDK
