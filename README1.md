@@ -1,5 +1,5 @@
 # deepstream-test1
-this is deepstream-test1
+this is deepstream-test1,more please refer to [nvidia deepstream](https://developer.nvidia.com/deepstream-sdk)
 
 # workflow
 filesrc（a single H.264 stream） → decode（v412） → nvstreammux → nvinfer (primary detector) → nvdsosd → renderer
