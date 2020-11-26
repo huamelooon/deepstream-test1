@@ -19,13 +19,16 @@ You must have the following development packages installed
 ```
 
 To install these packages, execute the following command:
+```
    sudo apt-get install libgstreamer-plugins-base1.0-dev libgstreamer1.0-dev \
    libgstrtspserver-1.0-dev libx11-dev
-
+```
 Compilation Steps:
+```
   $ cd apps/deepstream-test1/
   $ make
   $ ./deepstream-test1-app <h264_elementary_stream> #./deepstream-test1-app sample_720p.h264
+```
 
 # detailed infomation
 
